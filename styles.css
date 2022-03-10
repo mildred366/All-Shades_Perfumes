@@ -2,4 +2,25 @@
     margin: 0;
     padding: 0;
     line-height: 2;
+    font-family: 'Josefin Sans', sans-serif;
+    border: 3px solid red;
+    
+}
+
+.welcome {
+    color: #9f56cb;
+}
+
+.wrapper {
+    display: grid;
+    column-gap: 10px;
+    grid-template-columns: auto auto auto;
+    box-sizing: border-box;
+    padding: 10px;
+
+
+}
+
+img {
+    size: 10px;
 }
