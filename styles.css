@@ -39,6 +39,7 @@
 }
 .para {
     font-weight: 400;
+    text-align: center;
 }
 a:active {
     background-color: #f988e7;
