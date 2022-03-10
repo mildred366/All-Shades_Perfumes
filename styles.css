@@ -5,14 +5,14 @@
 
 }
 
-.welcome, .para, i, p {
+ .welcome, .para, a{
     color: #9f56cb;
-}
+} 
 
 .container {
     margin: 0 auto;
-    padding: 0 40px 20px 40px;
-    max-width: 500px;
+    padding: 0 30px 20px 40px;
+    max-width: 600px;
     box-sizing: border-box;
     align-items: center;
     justify-content: center;
@@ -32,7 +32,7 @@
 }
 
 .container img{
-    width: 80%;
+    width: 90%;
 }
 
 .wrapper {
@@ -46,4 +46,10 @@
 
 .para {
     font-weight: 400;
+}
+
+a:active {
+    background-color: #f988e7;
+    color: whitesmoke;
+    font-size: larger;
 }
